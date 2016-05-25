@@ -1,14 +1,14 @@
-
 {
   "name": "edgefieldmaze",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": "6.2.0"
+    "node": "4.4.1"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,15 @@
   "bugs": {
     "url": "https://github.com/dave-johnson/edgefieldmaze/issues"
   },
-  "homepage": "https://github.com/dave-johnson/edgefieldmaze#readme"
+  "homepage": "https://github.com/dave-johnson/edgefieldmaze#readme",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "mongodb": "^2.1.19",
+    "mongoose": "^4.4.19",
+    "mongoskin": "^2.1.0",
+    "monk": "^1.0.1"
+  }
 }
