@@ -1,0 +1,23 @@
+
+{
+  "name": "edgefieldmaze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.2.0"
+  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dave-johnson/edgefieldmaze.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dave-johnson/edgefieldmaze/issues"
+  },
+  "homepage": "https://github.com/dave-johnson/edgefieldmaze#readme"
+}
